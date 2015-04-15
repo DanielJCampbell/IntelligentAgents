@@ -1,6 +1,6 @@
 ;
 function Agent() {
-  var dataTypes = require("./dataTypes.js");
+  var data = require("./Data.js");
   this.User = dataTypes.User;
   this.Post = dataTypes.Post;
   this.Sub = dataTypes.Subreddit;
