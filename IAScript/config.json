@@ -1,0 +1,13 @@
+{
+  "userAgent": "PC:IntelligentAgentBot:0.1",
+  "login": {
+    "username": "IntelligentAgentBot",
+    "password": "COMP423"
+  },
+  "oauth": {
+    "type" : "script",
+    "consumerKey" : "g8JjmppncGOPSA",
+    "consumerSecret" : "n0riRXe6-oDjvLKVOZSZVM4pEM8",
+    "scope" : ["read", "history"]
+  }
+}

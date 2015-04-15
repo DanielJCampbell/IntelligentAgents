@@ -1,0 +1,22 @@
+{
+  "name": "IAScript",
+  "version": "1.0.0",
+  "description": "Program that extracts information from Reddit to create a Karma visualisation. Class project for COMP423.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielJCampbell/IntelligentAgents"
+  },
+  "author": "Daniel Campbell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielJCampbell/IntelligentAgents/issues"
+  },
+  "homepage": "https://github.com/DanielJCampbell/IntelligentAgents",
+  "dependencies": {
+    "snoocore": "^2.8.0"
+  }
+}
