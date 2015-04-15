@@ -8,16 +8,12 @@ Data.prototype.User = new function(id, lK, cK, p) {
   this.posts = (typeof p === 'undefined') ? [] : p;
 };
 
-Data.prototype.Subreddit = new function(id, p) {
+Data.prototype.Post = new function(id, up, down, u) {
   this.id = id;
-  this.posts = (typeof p === 'undefined') ? [] : p;
-};
-
-Data.prototype.Post = new function(id, sc, u, sr) {
-  this.id = id;
-  this.score = sc;
+  this.upvotes = up;
+  this.downvotes = down;
+  this.score = up - down;
   this.user = u;
-  this.sub = sr;
 };
 
 module.exports = Data;
