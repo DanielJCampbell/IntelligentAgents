@@ -19,9 +19,9 @@ Reader.prototype.read = function(subreddit) {
 	return promise.then(function(promises) {
 		return agent.when.all(promises).then(function() {
 			agent.bot.reddit.deauth();
-			agent.posts.forEach(function(item)) {
+			agent.posts.forEach(function(item) {
 				item.user = agent.users[item.userID]; 
-			}
+			});
 			return agent.posts;
 		});
 	});
