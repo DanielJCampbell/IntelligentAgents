@@ -15,14 +15,14 @@ Reader.prototype.read = function(subreddit) {
 	var promise = this.readSub(subreddit);
 	promise = this.readUsers(promise);
 
-	//Return a promise containing the info we want
+	//Attach the users to the posts, then return the array of posts
 	return promise.then(function(promises) {
 		return agent.when.all(promises).then(function() {
 			agent.bot.reddit.deauth();
-			return {
-				users : agent.users,
-				posts : agent.posts
-			};
+			agent.posts.forEach(function(item)) {
+				item.user = agent.users[item.userID]; 
+			}
+			return agent.posts;
 		});
 	});
 };
@@ -56,7 +56,7 @@ Reader.prototype.readUsers = function(promise) {
 		var usernames = [];
 		var users = [];
 		array.forEach(function(item) {
-			var username = item.user;
+			var username = item.username;
 			agent.posts.push(item);
 			var index = usernames.indexOf(username);
 			if (index === -1) {
@@ -74,3 +74,5 @@ Reader.prototype.readUsers = function(promise) {
 		return users;
 	});
 };
+
+module.exports = Reader;

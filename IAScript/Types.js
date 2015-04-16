@@ -3,10 +3,8 @@ function Post(id, up, down, u, url) {
   this.upvotes = up;
   this.downvotes = down;
   this.score = up - down;
-  this.user = u;
-  this.userCK = 0;
-  this.userLK = 0;
-  this.userKarma = 0;
+  this.username = u;
+  this.user = {};
   this.userID = -1;
   this.url = url;
 }
