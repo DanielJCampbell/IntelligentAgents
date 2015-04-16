@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DanielJCampbell/IntelligentAgents",
   "dependencies": {
-    "snoocore": "^2.8.0"
+    "snoocore": "^2.8.0",
+    "when": "^3.7.2"
   }
 }
