@@ -1,0 +1,49 @@
+<!doctype html>
+
+<style>
+p {
+	text-align: center;
+}
+
+.tab {
+	font-size: 32px sans-serif;
+	width: 50%;
+	margin: 5px;
+	padding-left: 20px;
+	display: inline;
+	position: relative;
+}
+.tabs {
+	width: 12%;
+	height: 25px;
+	border: 2px solid;
+	background-color: steelblue;
+	color: white;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+</style>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Intelligent Agents Demo</title>
+	<script src = "page.js"></script>
+</head>
+
+<body>
+	<div class = "tabs">
+		<p class = "tab" id = "predict" onclick = "page.tab('predict')" current = "true"><b> <u>Predict</b></u> </p>
+		<p class = "tab" id = "experiment" onclick = "page.tab('experiment')" current = "false"> <u><b>Experiment</b></u> </p>
+	</div>
+	<div class = "content">
+		<div id = "predictDiv">
+			<p> Do You Exist? </p>
+		</div>
+		<div id = "experimentDiv" style = "display: none;">
+			<p> You shouldn't exist </p>
+		</div>
+	</div>
+</body>
+</html>
