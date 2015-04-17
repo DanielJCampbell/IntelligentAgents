@@ -14,19 +14,24 @@ Ranker.prototype.predict = function(subreddit) {
 	var rank = this;
 
 	return promise.then(function(posts) {
-		posts.sort(rank.karmaRanker);
-		return posts;
+		var sorted = posts.slice();
+		sorted.sort(rank.karmaRanker);
+		return {
+			old : posts,
+			ranked : sorted
+		};
 	});
 };
 
+//Returns a promise of a promise of the array ranked two ways
 Ranker.prototype.experiment = function(subreddit, delay) {
 	var rank = this;
 	var promise = this.predict(subreddit);
 
 	promise = promise.delay(delay);
 
-	return promise.then(function(array) {
-		console.log(array);
+	return promise.then(function(result) {
+		var array = result.ranked;
 		var list = "";
 
 		array.forEach(function (item) {
@@ -37,8 +42,11 @@ Ranker.prototype.experiment = function(subreddit, delay) {
 				list = list + (",t3_"+item.id);
 			}
 		});
-		return rank.bot.reddit("/by_id/"+list+".json").get().then(function(slice) {
-			var oldRanked = array;
+
+		return rank.bot.reddit.auth().then(function() {
+			return rank.bot.reddit("/by_id/"+list+".json").get();
+		}).then(function(slice) {
+			rank.bot.reddit.deauth().done();
 			var newRanked = [];
 			slice.data.children.forEach(function(item) {
 				var data = item.data;
@@ -46,12 +54,11 @@ Ranker.prototype.experiment = function(subreddit, delay) {
 			});
 			newRanked.sort(rank.scoreRanker);
 			return {
-				old: oldRanked,
+				old: array,
 				current: newRanked
 			};
 		});
 	});
-
 };
 
 Ranker.prototype.karmaRanker = function(postA, postB) {
@@ -62,4 +69,4 @@ Ranker.prototype.scoreRanker = function(postA, postB) {
 	return postB.score - postA.score;
 };
 
-new Ranker().experiment("funny", 30000);
+module.exports = Ranker;

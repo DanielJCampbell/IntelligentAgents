@@ -31,9 +31,12 @@ Reader.prototype.read = function(subreddit) {
 //an array of posts from the given subreddit
 Reader.prototype.readSub = function(subreddit) {
 	var Post = this.Post;
-	return this.bot.reddit("/r/$subreddit/new").listing({
+	var agent = this;
+	return agent.bot.reddit.auth().then(function() {
+		return agent.bot.reddit("/r/$subreddit/new").listing({
 		$subreddit : subreddit,
 		limit : 25
+		});
 	}).then(function (slice) {
 		var promises = [];
 		slice.children.forEach(function(item) {
