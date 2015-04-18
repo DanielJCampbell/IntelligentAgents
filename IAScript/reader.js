@@ -10,9 +10,9 @@ function Reader() {
 }
 
 //Returns an promise containing an array of post information, allowing for reranking
-Reader.prototype.read = function(subreddit) {
+Reader.prototype.read = function(subreddit, limit) {
 	var agent = this;
-	var promise = this.readSub(subreddit);
+	var promise = this.readSub(subreddit, limit);
 	promise = this.readUsers(promise);
 
 	//Attach the users to the posts, then return the array of posts
@@ -29,13 +29,13 @@ Reader.prototype.read = function(subreddit) {
 
 //Returns a promise - when fulfilled, the promise evaluates to
 //an array of posts from the given subreddit
-Reader.prototype.readSub = function(subreddit) {
+Reader.prototype.readSub = function(subreddit, lim) {
 	var Post = this.Post;
 	var agent = this;
 	return agent.bot.reddit.auth().then(function() {
 		return agent.bot.reddit("/r/$subreddit/new").listing({
 		$subreddit : subreddit,
-		limit : 25
+		limit : lim
 		});
 	}).then(function (slice) {
 		var promises = [];
