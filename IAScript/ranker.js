@@ -44,7 +44,9 @@ Ranker.prototype.experiment = function(subreddit, limit, delay) {
 		});
 
 		return rank.bot.reddit.auth().then(function() {
-			return rank.bot.reddit("/by_id/"+list+".json").get();
+			return rank.bot.reddit("/by_id/"+list+".json").get({
+				limit: 100
+			});
 		}).then(function(slice) {
 			rank.bot.reddit.deauth().done();
 			var newRanked = [];
@@ -118,7 +120,6 @@ Ranker.prototype.test = function(subreddit, limit, delay) {
 		result.oldPrec = (oldRelevant > 0) ? oldRelevant/result.actual.length : 0;
 		result.predARR = predARR/10;
 		result.oldARR = oldARR/10;
-		console.log(result);
 		return result;
 	});
 } 

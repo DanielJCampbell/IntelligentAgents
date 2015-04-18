@@ -1,0 +1,53 @@
+1. URL: /r/cats/comments/32zbkk/her_eyes_have_finally_finished_changing_from/ Author: /u/Courtneyface(3725) Predicted index: 9
+
+2. URL: /r/cats/comments/32z9xx/otter_position/ Author: /u/sonaxaton(207) Predicted index: 18
+
+3. URL: /r/cats/comments/32zj3w/frolicking/ Author: /u/Cdnskater(724) Predicted index: 14
+
+4. URL: /r/cats/comments/32zn7b/a_close_friend_has_to_say_good_bye_to_her_best/ Author: /u/PiffTheFairyMuffin(3793) Predicted index: 8
+
+5. URL: /r/cats/comments/32z90k/i_made_my_cat_a_cat_house_and_today_he_officially/ Author: /u/anneps(543) Predicted index: 15
+
+6. URL: /r/cats/comments/32zlmf/lupin_wants_to_step_up_his_wardrobe/ Author: /u/annaleiia(864) Predicted index: 13
+
+7. URL: /r/cats/comments/32zl0c/majestic_first_time_on_the_leash/ Author: /u/Jamall_was_here(352) Predicted index: 17
+
+8. URL: /r/cats/comments/32zjz8/adopted_3_weeks_ago_and_black_cat_friday/ Author: /u/toadham(3613) Predicted index: 10
+
+9. URL: /r/cats/comments/32zdmg/say_ahhh/ Author: /u/m4verick1(1109) Predicted index: 12
+
+10. URL: /r/cats/comments/32z9km/i_reached_in_to_grab_some_socks_and_found_lady/ Author: /u/happyfriedmice(3) Predicted index: 21
+
+11. URL: /r/cats/comments/32zdnp/2_cats_1_box/ Author: /u/marinadeee(14) Predicted index: 20
+
+12. URL: /r/cats/comments/32zhd3/cat_grass_buffet/ Author: /u/hathui(6185) Predicted index: 7
+
+13. URL: /r/cats/comments/32zi5x/check_out_those_paws_it_looks_like_a_babys_hand/ Author: /u/mlong14(14730) Predicted index: 5
+
+14. URL: /r/cats/comments/32znfz/bonnie_our_severely_disabled_cat_doesnt_always/ Author: /u/NTX_cat_rescue(45663) Predicted index: 2
+
+15. URL: /r/cats/comments/32ze37/the_neighbors_got_a_cat_i_dont_think_mishap_has/ Author: /u/bamgrinus(20776) Predicted index: 3
+
+16. URL: /r/cats/comments/32zelw/tap_drinkin_cat_thug_life/ Author: /u/LandFish88(1647) Predicted index: 11
+
+17. URL: /r/cats/comments/32z9kp/mfw_something_falls_in_the_kitchen_but_my_cats/ Author: /u/fashi0ns(482) Predicted index: 16
+
+18. URL: /r/cats/comments/32zhdl/lilac_says_hey_sherpa_hows_the_air_down_there/ Author: /u/liv_sings(8203) Predicted index: 6
+
+19. URL: /r/cats/comments/32zqry/woke_up_to_this_the_other_morning/ Author: /u/imblu2(45) Predicted index: 19
+
+20. URL: /r/cats/comments/32zhpl/whats_that_you_need_to_send_some_important_emails/ Author: /u/AlbinoHessian(16230) Predicted index: 4
+
+21. URL: /r/cats/comments/32za8p/veterinarian_brags_about_killing_cat_with_bow_and/ Author: /u/wiseprogressivethink(58303) Predicted index: 1
+
+Ranking accuracy: 4.761904761904762%
+
+Old accuracy: 0%
+
+Ranking precision (Top 10): 14.285714285714285%
+
+Old precision (Top 10): 23.809523809523807%
+
+Ranking ARR: 13.7
+
+Old ARR: 11.5

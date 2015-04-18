@@ -1,0 +1,61 @@
+1. URL: /r/pics/comments/32zqba/chicago_police_officers_playing_football_with/ Author: /u/PuroMichoacan(226848) Predicted index: 1
+
+2. URL: /r/pics/comments/32zqee/my_local_ice_cream_shop_gives_broken_cones_to_dogs/ Author: /u/milodeceiving(9166) Predicted index: 8
+
+3. URL: /r/pics/comments/32zqhk/this_little_guy_arrived_at_my_flower_shop_today/ Author: /u/flowershop956(3980) Predicted index: 11
+
+4. URL: /r/pics/comments/32zqch/guy_tries_to_raise_enough_money_on_kickstarter_so/ Author: /u/perforatedpattern(87) Predicted index: 23
+
+5. URL: /r/pics/comments/32zq32/key_west_florida_the_only_star_visable_at_sunset/ Author: /u/OlBigRigs(3827) Predicted index: 12
+
+6. URL: /r/pics/comments/32zqw5/michelle_pfeiffer_1980/ Author: /u/SplatterFrogs(41921) Predicted index: 3
+
+7. URL: /r/pics/comments/32zqug/australiashes_out_to_get_you/ Author: /u/klippers(1327) Predicted index: 19
+
+8. URL: /r/pics/comments/32zpns/he_isnt_always_sweating_and_out_of_breath/ Author: /u/shoot_me_in_face(6225) Predicted index: 10
+
+9. URL: /r/pics/comments/32zpn8/so_my_smoothie_fermented/ Author: /u/bloglevi(1040) Predicted index: 20
+
+10. URL: /r/pics/comments/32zpn4/ok_you_can_stop_now/ Author: /u/Benito-Collins(2437) Predicted index: 15
+
+11. URL: /r/pics/comments/32zqu6/i_dont_know_why_but_i_made_a_lego_shartmander/ Author: /u/inkblob(10687) Predicted index: 6
+
+12. URL: /r/pics/comments/32zpz6/i_thought_to_mock_up_a_bunch_of_phone_cases_with/ Author: /u/bacchus213(51162) Predicted index: 2
+
+13. URL: /r/pics/comments/32zp1b/before_and_after_kiev/ Author: /u/bluesolitaire(1472) Predicted index: 18
+
+14. URL: /r/pics/comments/32zp8c/a_view_through_my_sunglasses_in_colorado_is_this/ Author: /u/paaps(1809) Predicted index: 16
+
+15. URL: /r/pics/comments/32zpj1/working_security_at_a_music_festival_i_keep/ Author: /u/hvilaichez(19717) Predicted index: 4
+
+16. URL: /r/pics/comments/32zr4l/wait_not_everybody_had_these_in_elementary_school/ Author: /u/minipretzelstix(11) Predicted index: 24
+
+17. URL: /r/pics/comments/32zpag/i_got_a_postburnout_shot_of_stuart_williams/ Author: /u/rhodium_chloride(1754) Predicted index: 17
+
+18. URL: /r/pics/comments/32zp7f/the_view_through_my_shades_in_maui/ Author: /u/Foxbatt(13128) Predicted index: 5
+
+19. URL: /r/pics/comments/32zpep/my_buddys_attempt_at_tackling_a_giant_watermelon/ Author: /u/GilliamOS(6926) Predicted index: 9
+
+20. URL: /r/pics/comments/32zpm5/my_friend_at_the_star_wars_celebration/ Author: /u/BeyondTheGate(3086) Predicted index: 14
+
+21. URL: /r/pics/comments/32zqux/written_in_the_bathroom_of_a_bar/ Author: /u/locallive(1010) Predicted index: 21
+
+22. URL: /r/pics/comments/32zqva/can_confirm_it_is_a_religion/ Author: /u/Saintango(287) Predicted index: 22
+
+23. URL: /r/pics/comments/32zr4x/uf338/ Author: /u/crazycattt420(1) Predicted index: 25
+
+24. URL: /r/pics/comments/32zr3k/stripes_on_stripes/ Author: /u/curious-soul(9668) Predicted index: 7
+
+25. URL: /r/pics/comments/32zr0v/attitude/ Author: /u/HighwayGirl(3809) Predicted index: 13
+
+Ranking accuracy: 16%
+
+Old accuracy: 0%
+
+Ranking precision (Top 10): 16%
+
+Old precision (Top 10): 12%
+
+Ranking ARR: 12.2
+
+Old ARR: 12.4

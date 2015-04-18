@@ -1,0 +1,61 @@
+1. URL: /r/funny/comments/32zqq6/my_mom_showed_me_her_southern_baptist_church/ Author: /u/Empyrean_Luminary(16327) Predicted index: 6
+
+2. URL: /r/funny/comments/32zq1x/peeing_after_sexmasturbation_as_a_man/ Author: /u/thiscontradiction(5923) Predicted index: 10
+
+3. URL: /r/funny/comments/32zqsw/what_charmander_is_evolving/ Author: /u/MikeyJayRaymond(104783) Predicted index: 1
+
+4. URL: /r/funny/comments/32zqcs/we_havin_supper_or_nah/ Author: /u/megz305(212) Predicted index: 23
+
+5. URL: /r/funny/comments/32zqgz/we_are_going_on_our_honeymoon_next_week_these_are/ Author: /u/That_Kangaroo(25334) Predicted index: 4
+
+6. URL: /r/funny/comments/32zqjs/mother_fuckers_with_no_respect/ Author: /u/punch_you(25297) Predicted index: 5
+
+7. URL: /r/funny/comments/32zqgs/acting_in_star_wars_is_hard_yall/ Author: /u/kagamaru(4317) Predicted index: 12
+
+8. URL: /r/funny/comments/32zqyd/my_friend_gave_me_this_pamphlet_with_a_look_of/ Author: /u/virtual_person(3630) Predicted index: 14
+
+9. URL: /r/funny/comments/32zq3s/dat_juxtaposition/ Author: /u/Enkayess(399) Predicted index: 18
+
+10. URL: /r/funny/comments/32zq3h/a_better_love_story_than_twilight_d/ Author: /u/CandyCaptain55(592) Predicted index: 17
+
+11. URL: /r/funny/comments/32zq4c/why_chewy_doesnt_have_grey_hair_in_the_new_trailer/ Author: /u/Adrew19(5349) Predicted index: 11
+
+12. URL: /r/funny/comments/32zr14/adventure_xpost_from_raww/ Author: /u/returnofthegangsta(276) Predicted index: 21
+
+13. URL: /r/funny/comments/32zq3g/libertarian_lassie/ Author: /u/Sommiel(67766) Predicted index: 2
+
+14. URL: /r/funny/comments/32zqrz/the_most_80s_thing_everin_2015/ Author: /u/psjoe96(7521) Predicted index: 8
+
+15. URL: /r/funny/comments/32zpgt/when_you_have_1000_comment_karma_and_only_100/ Author: /u/250TestaRossa(329) Predicted index: 19
+
+16. URL: /r/funny/comments/32zr43/my_wife_bought_dog_bone_shaped_paperclips/ Author: /u/playharpua(6930) Predicted index: 9
+
+17. URL: /r/funny/comments/32zpk1/searched_best_designer_jeans_for_men_on_google/ Author: /u/wachiga(3706) Predicted index: 13
+
+18. URL: /r/funny/comments/32zpqu/marlon_wayans_grimey_halloween/ Author: /u/boywonder5691(2138) Predicted index: 16
+
+19. URL: /r/funny/comments/32zpff/on_a_scale_of_one_to_even_i_cant/ Author: /u/wesleycrush3r(2578) Predicted index: 15
+
+20. URL: /r/funny/comments/32zpyg/shitty_new_jurassic_bart_poster/ Author: /u/usgchowdary(302) Predicted index: 20
+
+21. URL: /r/funny/comments/32zqri/legless_what_do_your_cat_eyes_see/ Author: /u/leliocakes(12729) Predicted index: 7
+
+22. URL: /r/funny/comments/32zplh/how_i_imagine_kris_bryant_felt_in_his_mlb_debut/ Author: /u/[deleted](273) Predicted index: 22
+
+23. URL: /r/funny/comments/32zqam/nerds_react_to_the_new_starwars_teaser/ Author: /u/violetjoker(37819) Predicted index: 3
+
+24. URL: /r/funny/comments/32zqw4/good_guy_google_phone_wants_to_auto_correct_the/ Author: /u/LittlePedro55(89) Predicted index: 24
+
+25. URL: /r/funny/comments/32zq68/green_card/ Author: /u/DoodleYankee(-2) Predicted index: 25
+
+Ranking accuracy: 20%
+
+Old accuracy: 8%
+
+Ranking precision (Top 10): 20%
+
+Old precision (Top 10): 20%
+
+Ranking ARR: 11
+
+Old ARR: 11
